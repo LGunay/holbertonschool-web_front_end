@@ -9,6 +9,10 @@ html{
 }
 body{
     color: var(--text-color);
+    font-family: var(--font-family-base);
+    font-size: var(--font-size-medium);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--line-height-base);
 }
 a:link{
     color: var(--text-color);
@@ -108,12 +112,6 @@ a:active{
     --button-hover-color: var(--color-white);
     --button-hover-text-decoration: none;
     --button-hover-background: var(--color-primary);
-}
-body{
-    font-family: var(--font-family-base);
-    font-size: var(--font-size-medium);
-    font-weight: var(--font-weight-regular);
-    line-height: var(--line-height-base);
 }
 h1,
 h2,
