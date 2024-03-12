@@ -294,6 +294,13 @@ ul.row{
   z-index: 1;
   transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
+.card-work:hover .card-image {
+  transform: scale(1.2);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
+.card-work:hover .card-outer {
+  transform: scale(0.95);
+}
 .card-work:hover .card-inner {
   background-color: rgba(0, 0, 0, 0.7);
 }
